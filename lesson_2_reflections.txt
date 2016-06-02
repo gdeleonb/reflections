@@ -1,0 +1,9 @@
+Question:
+  What happens when you initialize a repository? Why do you need to do it?
+Answer:
+  Creates the .git folder that keeps track of the status and changes of the repository which are needed for a repository to function properly.
+
+Question:
+  How is the staging area different from the working directory and the repository? What value do you think it offers?
+Answer:
+  Provides a middle ground you can use to review the changes you are making to the repository before doing so.
