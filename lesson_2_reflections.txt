@@ -7,3 +7,28 @@ Question:
   How is the staging area different from the working directory and the repository? What value do you think it offers?
 Answer:
   Provides a middle ground you can use to review the changes you are making to the repository before doing so.
+
+Question:
+  How can you use the staging area to make sure you have one commit per logical change?
+Answer:
+  Staging area lets you add in the files that constitute the logical change and commit them without touching anything else you might have been working on within the repository.
+
+Question:
+  What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Answer:
+  When there is a split in purpose but you don't want to overwrite the previous one such as a language change, difficulty change, or experimental features.
+
+Question:
+  How do the diagrams help you visualize the branch structure?
+Answer:
+  Diagrams let you see what changes were made to each branch in a more visual form than offered by the logs.
+
+Question:
+  What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Answer:
+  End result is a new commit with both previous HEADs as parents and the checkedout one as the HEAD of the merge.
+
+Question:
+  What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Answer:
+  Automatic merging saves a ton of time, but if run when there are conflicts it could cause the new commit to crash when run or not make sense in some way.
