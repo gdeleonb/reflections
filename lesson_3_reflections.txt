@@ -22,3 +22,8 @@ Question:
   How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 Answer:
   Would probably have to use dropbox and manual comparing with specific versions saved separately.
+
+Question:
+  When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Answer:
+  Primarily you make changes in branches whenever the change has the potential to break master or is something you want to keep separate from master for some other reason. When collaborating, it's also best to make branches for everything and just do pull requests to merge them into master to make sure you don't change anything someone else might be depending on without either of you noticing.
