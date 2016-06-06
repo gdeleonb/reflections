@@ -5,7 +5,7 @@ Answer:
 
 Question:
   Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
-Answer;
+Answer:
   Because someone might make changes to it that you don't want to pull as you're in the middle of something else.
 
 Question:
