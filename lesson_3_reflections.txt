@@ -17,3 +17,8 @@ Question:
   What is the benefit of having a copy of the last known state of the remote stored locally?
 Answer:
   You can check back to see how things were before you messed with it without having internet access.
+
+Question:
+  How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Answer:
+  Would probably have to use dropbox and manual comparing with specific versions saved separately.
